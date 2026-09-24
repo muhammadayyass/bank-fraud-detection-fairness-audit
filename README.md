@@ -30,7 +30,7 @@ Digital account-opening (onboarding) fraud is a major and growing risk for banks
 
 ## Data
 - **Source:** Bank Account Fraud (BAF) dataset suite, published by Feedzai and presented at NeurIPS 2022 — built with CTGAN synthetic-data generation plus differential privacy, and explicitly includes fairness/bias-relevant fields (age group, employment status)
-- **Scale:** 1,000,000 rows × 32 columns (~0.48 GB in memory)
+- **Scale:** 1,000,000 rows × 32 columns 
 - **Class imbalance:** only **1.10%** of applications are fraudulent (11,029 cases) — a realistic, highly imbalanced fraud-detection scenario
 
 ## Methodology
