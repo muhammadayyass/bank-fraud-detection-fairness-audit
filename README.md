@@ -74,7 +74,7 @@ Deploy with active fairness monitoring, not just accuracy monitoring — the 8.7
 ## Live Demo
 Deployed as an interactive **Streamlit** app — enter applicant details (age, credit bureau risk score, income decile, form-fill velocity, housing/employment status codes, device OS, registration channel) and get a live fraud-probability score and approve/reject decision.
 
-`ADD-YOUR-STREAMLIT-URL-HERE` — see the deployment instructions I sent alongside this file for how to get this link and drop it in.
+`https://pbl-datascience-baf2022-8lmr9vkarc7mfckfaea8hy.streamlit.app/` — see the deployment instructions I sent alongside this file for how to get this link and drop it in.
 
 ## Limitations
 The BAF dataset is synthetically generated (CTGAN + differential privacy), so absolute performance numbers may shift on real transaction data. The fairness audit here checks one protected attribute (age) in isolation; a production fairness review should also test intersectional effects (e.g. age combined with employment status) before deployment.
